@@ -22,7 +22,7 @@ const Parser = require('./parser.js');
 /**
  * Gets the processes on a local or remote computer.
  * @param {Object} options
- * @param {string} options.system The name name or IP address of a remote computer.
+ * @param {string} options.system The name or IP address of a remote computer.
  * @param {string} options.username The user name of the remote computer.
  * @param {string} options.password The password of the account that is specified in the username option.
  * @param {boolean|string} options.modules If true, lists all DLL modules loaded for each process. Default: false.

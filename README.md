@@ -255,7 +255,7 @@ import { getProcesses } from 'node-processlist';
 ### processlist.getProcesses([options])
 
 * `options` [&lt;Object&gt;][4]
-  * `system` [&lt;string&gt;][3] The name name or IP address of a remote computer.
+  * `system` [&lt;string&gt;][3] The name or IP address of a remote computer.
   * `username` [&lt;string&gt;][3] The user name of the remote computer.
   * `password` [&lt;string&gt;][3] The password of the account that is specified in the `username` option.
   * `modules` [&lt;boolean&gt;][1] | [&lt;string&gt;][3] If `true`, lists all DLL modules loaded for each process. **Default**: `false`.

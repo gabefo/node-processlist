@@ -1,21 +1,24 @@
 {
   "name": "node-processlist",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Gets a list of currently running processes on Windows.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "Gabriel Miranda",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
+    "process",
+    "processes",
+    "tasks",
     "processlist",
     "tasklist",
-    "process",
-    "task",
     "windows",
     "pid",
-    "modules"
+    "modules",
+    "services",
+    "apps"
   ],
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/gabefo/node-processlist/issues"
   },
-  "homepage": "https://github.com/gabefo/node-processlist#readme"
+  "homepage": "https://github.com/gabefo/node-processlist#readme",
+  "directories": {
+    "test": "test"
+  }
 }
